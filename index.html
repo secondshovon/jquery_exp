@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>jQuery</title>
+
+	<!-- css links -->
+
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.14.1/themes/base/jquery-ui.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+	<section class="draggable">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div id="draggable" class="ui-widget-content">
+					  <p>Drag me around</p>
+					</div>
+									
+				</div>
+				
+			</div>		
+		</div>
+	</section>
+
+	<hr>
+
+	<section class="accordion">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div id="accordion">
+					  <!-- single item start -->
+					  <h3>Section 1</h3>
+					  <div>
+					    <p>
+					    Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+					    ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+					    amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+					    odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+					    </p>
+					  </div>
+					  <!-- single item end -->
+
+					  <!-- single item start -->
+					  <h3>Section 2</h3>
+					  <div>
+					    <p>
+					    Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+					    purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+					    velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+					    suscipit faucibus urna.
+					    </p>
+					  </div>
+					  <!-- single item end -->
+					</div>		
+				</div>
+				
+			</div>		
+		</div>
+	</section>
+
+	<hr>
+	
+	<section class="autocomplete">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<form action="#">
+						<div class="mt-3 mb-3">
+						  <label for="c_name" class="form-label">Enter your favourite course name</label>
+						  <input type="text" class="form-control" id="c_name">
+						</div>
+						<div class="mb-3">
+						  <button type="submit" class="btn btn-dark">Submit</button>
+						</div>
+						
+					</form>
+					
+				</div>
+				
+			</div>
+			
+		</div>	
+	</section>
+
+	<hr>
+
+	<section class="selectable">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<ol id="selectable" class="list-inline">
+						<li class="ui-widget-content">Item 1</li>
+						 <li class="ui-widget-content">Item 2</li>
+						 <li class="ui-widget-content">Item 3</li>
+						 <li class="ui-widget-content">Item 4</li>
+						 <li class="ui-widget-content">Item 5</li>
+						 <li class="ui-widget-content">Item 6</li>
+						 <li class="ui-widget-content">Item 7</li>
+					</ol>  					
+				</div>
+			</div>	
+		</div>
+	</section>
+
+	<hr>
+
+	<section class="sortable">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<ul id="sortable" class="list-inline">
+					  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 1</li>
+					  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 2</li>
+					  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 3</li>
+					  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 4</li>
+					  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 5</li>
+					  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 6</li>
+					  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 7</li>
+					</ul>					
+				</div>
+			</div>	
+		</div>
+	</section>
+
+	<hr>
+
+	<section class="droppable">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div id="dragg" class="ui-widget-content">
+					  <p>Drag me to my target</p>
+					</div>
+					 
+					<div id="droppable" class="ui-widget-header">
+					  <p>Drop here</p>
+					</div>
+					
+				</div>
+				
+			</div>
+			
+		</div>		
+	</section>
+
+	<hr>
+
+	<section class="resizable">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div id="resizable" class="ui-widget-content">
+					  <h3 class="ui-widget-header">Resizable</h3>
+					</div>
+				</div>	
+			</div>	
+		</div>		
+	</section>
+
+	<hr>
+
+	<section class="progressbar">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div id="progressbar"></div>
+				</div>	
+			</div>	
+		</div>		
+	</section>
+
+	<hr>
+
+	<section class="tabs">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div id="tabs">
+					  <ul>
+					    <li><a href="#tabs-1">Nunc tincidunt</a></li>
+					    <li><a href="#tabs-2">Proin dolor</a></li>
+					    <li><a href="#tabs-3">Aenean lacinia</a></li>
+					  </ul>
+					  <div id="tabs-1">
+					    <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend </p>
+					  </div>
+					  <div id="tabs-2">
+					    <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie </p>
+					  </div>
+					  <div id="tabs-3">
+					    <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
+					  </div>
+					</div>
+				</div>	
+			</div>	
+		</div>		
+	</section>
+
+	<hr>
+
+	<section class="datepicker">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<p>Date: <input type="text" id="datepicker"></p>
+				</div>	
+			</div>	
+		</div>		
+	</section>
+
+	<hr>
+
+	<section class="dialog">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div id="dialog" title="Basic dialog">
+					  <p>This is the default dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the 'x' icon.</p>
+					</div>
+				</div>	
+			</div>	
+		</div>		
+	</section>
+
+	<hr>
+
+	<section class="slider">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div id="slider"></div>
+				</div>	
+			</div>	
+		</div>		
+	</section>
+
+	<hr>
+
+	<section class="sortable_display_as_grid">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<ul id="sortable2" class="list-inline">
+					  <li class="ui-state-default">1</li>
+					  <li class="ui-state-default">2</li>
+					  <li class="ui-state-default">3</li>
+					  <li class="ui-state-default">4</li>
+					  <li class="ui-state-default">5</li>
+					  <li class="ui-state-default">6</li>
+					  <li class="ui-state-default">7</li>
+					  <li class="ui-state-default">8</li>
+					  <li class="ui-state-default">9</li>
+					  <li class="ui-state-default">10</li>
+					  <li class="ui-state-default">11</li>
+					  <li class="ui-state-default">12</li>
+					</ul>
+					
+				</div>	
+			</div>	
+		</div>		
+	</section>
+
+	<hr>
+
+	<section class="slider">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<p>Tooltips are also useful for form elements, to show some additional information in the context of each field.</p>
+					<p><label for="age">Your age:</label><input id="age" title="We ask for your age only for statistical purposes."></p>
+					<p>Hover the field to see the tooltip.</p>
+				</div>	
+			</div>	
+		</div>		
+	</section>
+
+
+
+
+
+
+
+
+
+	
+	
+
+
+
+
+
+	<script src="js/jquery-3.7.1.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/script.js"></script>
+
+</body>
+</html>
